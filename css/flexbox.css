@@ -6,13 +6,12 @@ examples:
 flex container examples:
 
     { flex ff-r-nw jc-c ai-c } ->  { display: flex; flex-flow: row nowrap; justify-content: center; align-items: center; }
-    { flex ff-c-wr jc-sb ai-fs } -> { display: flex; flex-flow: column wrap-reverse; justify-content: space-between; align-items: flex-start }
+    { flex ff-c-wr jc-sb ai-fs } -> { display: flex; flex-flow: column wrap-reverse; justify-content: space-between; align-items: flex-start; }
 
 flex item examples:
 
     { o1 fb-md as-c } -> { order: 1; flex-basis: 50%; align-self: center; }
-    { o3 fb-xl as-fs } -> { order: 3; flex-basis: 90%; align-self: flex-start }
-
+    { o3 fb-xl as-fs } -> { order: 3; flex-basis: 90%; align-self: flex-start; }
 */
 
 /*

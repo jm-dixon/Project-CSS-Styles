@@ -1,7 +1,126 @@
 /*
+css styles for grid
 
+examples:
+
+grid container examples:
+
+    { grid gtc-lg-e jc-se ac-c } ->  { display: grid; grid-template-columns: auto auto auto auto auto auto; justify-content: space-evenly; align-content: center; }
+    { grid gtc-sm-e jc-c ac-sb } -> { display: grid; grid-template-columns: auto auto; justify-content: center; align-content: space-between; }
+
+grid item examples:
+
+    { gc-one-three gr-one-four } -> { grid-column: 1 / span 3; grid-row: 1 / span 4; }
+    { gc-one-six gr-one-six } -> { grid-column: 1 / span 6; grid-row: 1 / span 6; }
 */
 
-.grid-default {
-    
+/*
+styles for grid containers
+
+grid template column presets support up to 8 columns of equal width
+*/
+.grid {
+    display: grid;
+}
+.gtc-sm-e {
+    grid-template-columns: auto auto;
+}
+.gtc-md-e {
+    grid-template-columns: auto auto auto auto;
+}
+.gtc-lg-e {
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.gtc-xl-e {
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+.jc-s {
+    justify-content: start;
+}
+.jc-c {
+    justify-content: center;
+}
+.jc-e {
+    justify-content: end;
+}
+.jc-b {
+    justify-content: baseline;
+}
+.jc-se {
+    justify-content: space-evenly;
+}
+.jc-sa {
+    justify-content: space-around;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.ac-s {
+    align-content: start;
+}
+.ac-c {
+    align-content: center;
+}
+.ac-e {
+    align-content: end;
+}
+.ac-sa {
+    align-content: space-around;
+}
+.ac-sb {
+    align-content: space-between;
+}
+/*
+styles for grid items 
+
+grid column presets support up to 8 grid columns
+grid row presets support up to 8 grid rows
+*/
+.gc-one-one {
+    grid-column: 1 / span 1;
+}
+.gc-one-two {
+    grid-column: 1 / span 2;
+}
+.gc-one-three {
+    grid-column: 1 / span 3;
+}
+.gc-one-four {
+    grid-column: 1 / span 4;
+}
+.gc-one-five {
+    grid-column: 1 / span 5;
+}
+.gc-one-six {
+    grid-column: 1 / span 6;
+}
+.gc-one-seven {
+    grid-column: 1 / span 7;
+}
+.gc-one-eight {
+    grid-column: 1 / span 8;
+}
+.gr-one-one {
+    grid-row: 1 / span 1;
+}
+.gr-one-two {
+    grid-row: 1 / span 2;
+}
+.gr-one-three {
+    grid-row: 1 / span 3;
+}
+.gr-one-four {
+    grid-row: 1 / span 4;
+}
+.gr-one-five {
+    grid-row: 1 / span 5;
+}
+.gr-one-six {
+    grid-row: 1 / span 6;
+}
+.gr-one-seven {
+    grid-row: 1 / span 7;
+}
+.gr-one-eight {
+    grid-row: 1 / span 8;
 }
