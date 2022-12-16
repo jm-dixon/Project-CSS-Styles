@@ -1,0 +1,58 @@
+/*
+css styles for transitions
+*/
+
+/*
+styles for transition timing functions
+*/
+.ttf-e {
+    transition-timing-function: ease;
+}
+.ttf-ei {
+    transition-timing-function: ease-in;
+}
+.ttf-eio {
+    transition-timing-function: ease-in-out;
+}
+.ttf-ea {
+    transition-timing-function: ease-out;
+}
+.ttf-l {
+    transition-timing-function: linear;
+}
+/*
+styles for transition durations
+*/
+.duration-vs {
+    transition-duration: 1s;
+}
+.duration-sh {
+    transition-duration: 2.5s;
+}
+.duration-md {
+    transition-duration: 5s;
+}
+.duration-lg {
+    transition-duration: 7.5s;
+}
+.duration-vl {
+    transition-duration: 10s;
+}
+/*
+styles for transition delays
+*/
+.delay-vs {
+    transition-delay: 1s;
+}
+.delay-sh {
+    transition-delay: 2.5s;
+}
+.delay-md {
+    transition-delay: 5s;
+}
+.delay-lg {
+    transition-delay: 7.5s;
+}
+.delay-vl {
+    transition-delay: 10s;
+}
