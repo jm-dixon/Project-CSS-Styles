@@ -2,10 +2,10 @@
 css vars for colours
 */
 
-/*
-general colours
-*/
 :root {
+    /*
+    general colours
+    */
     --color-black: #000000;
     --color-grey: #272727;
     --color-lightGrey: #d3d3d3;

@@ -1,3 +1,27 @@
 /*
-
+css vars for fonts and text variants
 */
+
+:root {
+    /*
+    font styles
+    */
+    --style-normal: font-style: normal; 
+    --style-italic: font-style: italic;
+    --style-oblique: font-style: oblique;
+    --style-inherit: font-style: inherit;
+
+    /*
+    font weights 
+    */
+    --weight-normal: font-weight: normal;
+    --weight-bold: font-weight: bold;
+    --weight-inherit: font-weight: inherit;
+
+    /*
+    font variants
+    */
+    --variant-normal: font-variant: normal;
+    --variant-caps: font-variant: small-caps;
+    --variant-inherit: font-variant: inherit;
+}
